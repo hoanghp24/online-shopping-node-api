@@ -1,0 +1,18 @@
+Error: connect ETIMEDOUT
+    at Connection._handleConnectTimeout (D:\Workspaces\Persional\Flutter\proj\shop_app_backend\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (node:events:626:28)
+    at Socket.emit (node:events:512:28)
+    at Socket._onTimeout (node:net:586:8)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+    --------------------
+    at Protocol._enqueue (D:\Workspaces\Persional\Flutter\proj\shop_app_backend\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (D:\Workspaces\Persional\Flutter\proj\shop_app_backend\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (D:\Workspaces\Persional\Flutter\proj\shop_app_backend\node_modules\mysql\lib\Connection.js:116:18)
+    at reconnect (D:\Workspaces\Persional\Flutter\proj\shop_app_backend\helpers\db_helpers.js:18:16)
+    at Object.<anonymous> (D:\Workspaces\Persional\Flutter\proj\shop_app_backend\helpers\db_helpers.js:12:1)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
