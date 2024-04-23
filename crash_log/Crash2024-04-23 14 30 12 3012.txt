@@ -1,0 +1,1 @@
+Error: EXDEV: cross-device link not permitted, rename 'C:\Users\hihoa\AppData\Local\Temp\4k3ouf-QheVpU9SnbD7R9caK.png' -> 'D:\Workspaces\Persional\Flutter\proj\shop_app_backend\public\img\category\202404231430123012kcPlp4xYZk.png'

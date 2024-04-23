@@ -8,7 +8,7 @@ const msg_server_internal_error = "Server Internal Error";
 
 module.exports = {
   ImagePath: () => {
-    return "https://online-shop-app-backend.onrender.com/img/";
+    return "https://online-shopping-node-api.onrender.com/img/";
   },
 
   ThrowHtmlError: (err, res) => {

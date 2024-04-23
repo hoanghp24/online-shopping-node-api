@@ -33,7 +33,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/brand_add",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/brand_add",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -69,7 +69,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/brand_update",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/brand_update",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -94,7 +94,7 @@
                   "urlencoded": []
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/brand_list",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/brand_list",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -125,7 +125,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/brand_delete",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/brand_delete",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -161,7 +161,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/zone_add",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/zone_add",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -197,7 +197,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/zone_update",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/zone_update",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -222,7 +222,7 @@
                   "urlencoded": []
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/zone_list",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/zone_list",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -253,7 +253,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/zone_delete",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/zone_delete",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -294,7 +294,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/area_add",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/area_add",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -335,7 +335,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/area_update",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/area_update",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -360,7 +360,7 @@
                   "urlencoded": []
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/area_list",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/area_list",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -391,7 +391,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/area_delete",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/area_delete",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -437,7 +437,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_category_add",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_category_add",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -483,7 +483,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_category_update",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_category_update",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -508,7 +508,7 @@
                   "urlencoded": []
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_category_list",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_category_list",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -539,7 +539,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_category_delete",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_category_delete",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -585,7 +585,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_type_add",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_type_add",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -626,7 +626,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_type_update",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_type_update",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -657,7 +657,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_type_delete",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_type_delete",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -682,7 +682,7 @@
                   "urlencoded": []
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_type_list",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_type_list",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -773,7 +773,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_add",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_add",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -849,7 +849,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_update",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_update",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -880,7 +880,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_delete",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_delete",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -921,7 +921,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_nutrition_add",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_nutrition_add",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -967,7 +967,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_nutrition_update",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_nutrition_update",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1003,7 +1003,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_nutrition_delete",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_nutrition_delete",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1039,7 +1039,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_image_add",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_image_add",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1075,7 +1075,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_image_delete",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_image_delete",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1100,7 +1100,7 @@
                   "urlencoded": []
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_list",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_list",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1131,7 +1131,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/product_detail",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/product_detail",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1184,7 +1184,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/offer_add",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/offer_add",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1215,7 +1215,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/offer_delete",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/offer_delete",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1240,7 +1240,7 @@
                   "urlencoded": []
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/offer_list",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/offer_list",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1319,7 +1319,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/promo_code_add",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/promo_code_add",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1344,7 +1344,7 @@
                   "urlencoded": []
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/promo_code_list",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/promo_code_list",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1418,7 +1418,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/promo_code_update",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/promo_code_update",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1449,7 +1449,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/promo_code_delete",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/promo_code_delete",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1479,7 +1479,7 @@
                   "urlencoded": []
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/new_orders_list",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/new_orders_list",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1504,7 +1504,7 @@
                   "urlencoded": []
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/completed_orders_list",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/completed_orders_list",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1529,7 +1529,7 @@
                   "urlencoded": []
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/cancel_decline_orders_list",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/cancel_decline_orders_list",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1565,7 +1565,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/order_detail",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/order_detail",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1607,7 +1607,7 @@
                   ]
                 },
                 "url": {
-                  "raw": "https://online-shop-app-backend.onrender.com/api/admin/order_status_change",
+                  "raw": "https://online-shopping-node-api.onrender.com/api/admin/order_status_change",
                   "protocol": "http",
                   "host": ["localhost"],
                   "port": "3001",
@@ -1629,7 +1629,7 @@
             "method": "POST",
             "header": [],
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/get_zone_area",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/get_zone_area",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -1664,7 +1664,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/login",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/login",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -1704,7 +1704,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/sign_up",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/sign_up",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -1725,7 +1725,7 @@
               }
             ],
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/home",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/home",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -1756,7 +1756,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/product_detail",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/product_detail",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -1787,7 +1787,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/add_remove_favorite",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/add_remove_favorite",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -1812,7 +1812,7 @@
               "urlencoded": []
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/favorite_list",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/favorite_list",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -1837,7 +1837,7 @@
               "urlencoded": []
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/explore_category_list",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/explore_category_list",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -1868,7 +1868,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/explore_category_items_list",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/explore_category_items_list",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -1904,7 +1904,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/add_to_cart",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/add_to_cart",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -1945,7 +1945,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/update_cart",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/update_cart",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -1981,7 +1981,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/cart_list",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/cart_list",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2017,7 +2017,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/remove_cart",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/remove_cart",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2079,7 +2079,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/add_delivery_address",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/add_delivery_address",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2146,7 +2146,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/update_delivery_address",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/update_delivery_address",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2177,7 +2177,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/delete_delivery_address",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/delete_delivery_address",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2202,7 +2202,7 @@
               "urlencoded": []
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/delivery_address",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/delivery_address",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2233,7 +2233,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/mark_default_delivery_address",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/mark_default_delivery_address",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2258,7 +2258,7 @@
               "urlencoded": []
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/promo_code_list",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/promo_code_list",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2304,7 +2304,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/add_payment_method",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/add_payment_method",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2335,7 +2335,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/remove_payment_method",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/remove_payment_method",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2360,7 +2360,7 @@
               "urlencoded": []
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/payment_method",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/payment_method",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2411,7 +2411,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/order_place",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/order_place",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2458,7 +2458,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/order_payment_transaction",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/order_payment_transaction",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2509,7 +2509,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/my_order",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/my_order",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2540,7 +2540,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/my_order_detail",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/my_order_detail",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2565,7 +2565,7 @@
               "urlencoded": []
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/notification_list",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/notification_list",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2590,7 +2590,7 @@
               "urlencoded": []
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/notification_read_all",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/notification_read_all",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2636,7 +2636,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/update_profile",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/update_profile",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2672,7 +2672,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/change_password",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/change_password",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2697,7 +2697,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/forgot_password_request",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/forgot_password_request",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2727,7 +2727,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/forgot_password_verify",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/forgot_password_verify",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
@@ -2762,7 +2762,7 @@
               ]
             },
             "url": {
-              "raw": "https://online-shop-app-backend.onrender.com/api/app/forgot_password_set_password",
+              "raw": "https://online-shopping-node-api.onrender.com/api/app/forgot_password_set_password",
               "protocol": "http",
               "host": ["localhost"],
               "port": "3001",
