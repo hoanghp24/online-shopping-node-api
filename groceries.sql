@@ -233,8 +233,8 @@ CREATE TABLE `image_detail` (
 --
 
 INSERT INTO `image_detail` (`img_id`, `prod_id`, `image`, `status`, `created_date`, `modify_date`) VALUES
-(4, 5, 'product/202307310947354735xuruflIucc.png', 1, '2023-07-31 09:47:35', '2023-07-31 09:47:35'),
-(5, 6, 'product/202307310951365136W6nJvPCdzQ.png', 1, '2023-07-31 09:51:36', '2023-07-31 09:51:36'),
+(1, 1, 'product/polo/polo1.png', 1, '2023-07-31 09:47:35', '2023-07-31 09:47:35'),
+(2, 2, 'product/polo/polo.png', 1, '2023-07-31 09:51:36', '2023-07-31 09:51:36'),
 (6, 7, 'product/202307310958175817ytVf7AVIOl.png', 1, '2023-07-31 09:58:17', '2023-07-31 09:58:17'),
 (7, 8, 'product/202307311010091094RZ1nWHTug.png', 1, '2023-07-31 10:10:09', '2023-07-31 10:10:09'),
 (8, 9, 'product/202307311011551155pIjIPWIb4w.png', 1, '2023-07-31 10:11:55', '2023-07-31 10:11:55'),
@@ -505,13 +505,8 @@ CREATE TABLE `product_detail` (
 --
 
 INSERT INTO `product_detail` (`prod_id`, `cat_id`, `brand_id`, `type_id`, `name`, `detail`, `unit_name`, `unit_value`, `nutrition_weight`, `price`, `status`, `created_date`, `modify_date`) VALUES
-(5, 1, 1, 1, 'Organic Banana', 'banana, fruit of the genus Musa, of the family Musaceae, one of the most important fruit crops of the world. The banana is grown in the tropics, and, though it is most widely consumed in those regions, it is valued worldwide for its flavour, nutritional value, and availability throughout the year', 'pcs', '7', '200g', 2.99, 1, '2023-07-31 09:47:35', '2023-07-31 09:47:35'),
-(6, 1, 1, 1, 'Red Apple', 'Apples contain key nutrients, including fiber and antioxidants. They may offer health benefits, including lowering blood sugar levels and benefitting heart health.', 'kg', '1', '182g', 1.99, 1, '2023-07-31 09:51:36', '2023-07-31 09:51:36'),
-(7, 1, 1, 1, 'Oranges', 'Many types of oranges are high in fiber and beneficial vitamins, like vitamin C. They also contain antioxidants which can have various health benefits, including supporting immune function.', 'kg', '1', '140g', 0.99, 1, '2023-07-31 09:58:17', '2023-07-31 09:58:17'),
-(8, 3, 1, 1, 'Beef Bone', 'When consumed in moderation, beef can improve muscle growth and maintenance. It’s also rich in iron and zinc. But high consumption of beef has been linked to an increased risk for heart disease and cancer.', 'kg', '1', '100g', 3.99, 1, '2023-07-31 10:10:09', '2023-07-31 10:10:09'),
-(9, 3, 1, 1, 'Broiler Chicken', 'When consumed in moderation, beef can improve muscle growth and maintenance. It’s also rich in iron and zinc. But high consumption of beef has been linked to an increased risk for heart disease and cancer.', 'kg', '1', '100g', 3.99, 1, '2023-07-31 10:11:55', '2023-07-31 10:11:55'),
-(10, 1, 1, 1, 'Bell Peppers', 'Bell peppers (Capsicum annuum) are fruits that belong to the nightshade family. They are low in calories and rich in vitamin C and other antioxidants, making them an excellent addition to a healthy diet.', 'gm', '250', '100g', 1.99, 1, '2023-07-31 10:14:09', '2023-07-31 10:14:09'),
-(11, 1, 1, 1, 'Ginger', 'Ginger may have numerous health benefits due to its anti-inflammatory, anti-nausea, and other properties. It may help you lose weight, manage arthritis, reduce menstrual symptoms, and more.', 'gm', '250', '11g', 2.99, 1, '2023-07-31 10:18:32', '2023-07-31 10:18:32');
+(1, 1, 1, 1, 'Áo Polo Regular phối kẻ', 'REGULAR FIT', 'pcs', '7', '200g', 950.000, 1, '2023-07-31 09:47:35', '2023-07-31 09:47:35'),
+(2, 1, 1, 1, 'Áo polo Regular phối màu', 'REGULAR FIT', 'pcs', '7', '200g', 890.000, 1, '2023-07-31 09:47:35', '2023-07-31 09:47:35');
 
 -- --------------------------------------------------------
 
@@ -581,9 +576,13 @@ CREATE TABLE `type_detail` (
 --
 
 INSERT INTO `type_detail` (`type_id`, `type_name`, `image`, `color`, `status`, `created_date`, `modify_date`) VALUES
-(1, 'Pulses', 'type/202307261610181018aVOpgmY1W1.png', 'F8A44C', 1, '2023-07-26 16:10:18', '2023-07-26 16:12:39'),
-(2, 'Pulses', 'type/202307310959535953siLWeCJ71I.png', 'F8A44C', 2, '2023-07-31 09:59:53', '2023-07-31 09:59:53'),
-(3, 'Rice', 'type/202307311000160168a0737aEiC.png', '53B175', 1, '2023-07-31 10:00:16', '2023-07-31 10:00:16');
+(1, 'Polo', 'type/polo.png', 'F8A44C', 1, '2023-07-26 16:10:18', '2023-07-26 16:12:39'),
+(2, 'Sơ mi', 'type/somi.png', 'F8A44C', 1, '2023-07-31 09:59:53', '2023-07-31 09:59:53'),
+(3, 'Áo thun', 'type/thun.png', '53B175', 1, '2023-07-31 10:00:16', '2023-07-31 10:00:16'),
+(4, 'Áo khoác', 'type/aokhoac.png', '53B175', 1, '2023-07-31 10:00:16', '2023-07-31 10:00:16'),
+(5, 'Quần tây', 'type/quantay.png', '53B175', 1, '2023-07-31 10:00:16', '2023-07-31 10:00:16'),
+(6, 'Quần jean', 'type/quanjean.png', '53B175', 1, '2023-07-31 10:00:16', '2023-07-31 10:00:16'),
+(7, 'Quần short', 'type/quanshort.png', '53B175', 1, '2023-07-31 10:00:16', '2023-07-31 10:00:16');
 
 -- --------------------------------------------------------
 
