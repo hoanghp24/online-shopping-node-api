@@ -1048,8 +1048,8 @@ module.exports.controller = (app, io, socket_list) => {
                               [
                                 result.insertId,
                                 userObj.user_id,
-                                "Order Placed",
-                                "your order #" + result.insertId + " placed.",
+                                "Chờ xác nhận",
+                                "Đơn hàng " + result.insertId + " của bạn đã được đặt thành công.",
                                 "2",
                               ],
                               (err, iResult) => {
