@@ -4,7 +4,7 @@ var helper = require("./../helpers/helpers");
 var imageSavePath = "./public/img/";
 var image_base_url = helper.ImagePath();
 
-var deliver_price = 2.0;
+var deliver_price = 30000;
 
 module.exports.controller = (app, io, socket_list) => {
   const msg_success = "successfully";
