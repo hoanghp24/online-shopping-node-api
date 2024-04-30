@@ -15,7 +15,7 @@ module.exports.controller = (app, io, socket_list) => {
   const msg_removed_favorite = "Xoá thành công khỏi mục yêu thích";
   const msg_invalid_item = "Sản phẩm không hợp lệ";
   const msg_add_to_item = "Đã thêm vào giỏ thành công";
-  const msg_remove_to_cart = "item remove form cart successfully";
+  const msg_remove_to_cart = "Đã xoá khỏi giỏ hàng thành công";
   const msg_add_address = "Thêm địa chỉ thành công";
   const msg_update_address = "Cập nhật địa chỉ thành công";
   const msg_remove_address = "Xoá địa chỉ thành công";
