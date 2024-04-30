@@ -411,7 +411,7 @@ module.exports.controller = (app, io, socket_list) => {
     var reqObj = req.body;
 
     checkAccessToken(req.headers, res, (userObj) => {
-      helper.CheckParameterValid(res, reqObj, ["prod_id", "qty"], () => {
+      helper.CheckParameterValid(res, reqObj, ["prod_id", "qty", "size"], () => {
         db.query(
           "Select `prod_id` FROM `product_detail` WHERE  `prod_id` = ? AND `status` = 1 ",
           [reqObj.prod_id],
