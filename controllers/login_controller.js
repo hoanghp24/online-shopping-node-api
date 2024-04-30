@@ -426,7 +426,7 @@ module.exports.controller = (app, io, socket_list) => {
 
               db.query(
                 "INSERT INTO `cart_detail`(`user_id`, `prod_id`, `qty`, `size`) VALUES (?,?,?,?) ",
-                [userObj.user_id, reqObj.prod_id, reqObj.qty],
+                [userObj.user_id, reqObj.prod_id, reqObj.qty, reqObj.size],
                 (err, result) => {
                   if (err) {
                     helper.ThrowHtmlError(err, res);
