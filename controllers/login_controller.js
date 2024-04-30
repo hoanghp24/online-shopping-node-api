@@ -1302,7 +1302,7 @@ module.exports.controller = (app, io, socket_list) => {
       res,
       (userObj) => {
         db.query(
-          "SELECT `notification_id`, `ref_id`, `title`, `message`, `notification_type`, `is_read`, `created_date` FROM `notification_detail` WHERE `user_id` = ? AND `status` = 1 ORDER BY `created_date`",
+          "SELECT `notification_id`, `ref_id`, `title`, `message`, `notification_type`, `is_read`, `created_date` FROM `notification_detail` WHERE `user_id` = ? AND `status` = 1 ORDER BY `-created_date`",
           [userObj.user_id],
           (err, result) => {
             if (err) {
