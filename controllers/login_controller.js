@@ -7,7 +7,7 @@ var image_base_url = helper.ImagePath();
 var deliver_price = 30000;
 
 module.exports.controller = (app, io, socket_list) => {
-  const msg_success = "Thành công";
+  const msg_success = "thành công";
   const msg_fail = "Lỗi";
   const msg_invalidUser = "Email hoặc mật khẩu không đúng";
   const msg_already_register = "Email đăng ký đã tồn tại ";
@@ -49,7 +49,11 @@ module.exports.controller = (app, io, socket_list) => {
                 }
 
                 if (result.length > 0) {
-                  res.json({ status: "1", payload: result[0], message: "Đăng nhập" + msg_success });
+                  res.json({
+                    status: "1",
+                    payload: result[0],
+                    message: "Đăng nhập " + msg_success,
+                  });
                 } else {
                   res.json({ status: "0", message: msg_invalidUser });
                 }
@@ -108,7 +112,7 @@ module.exports.controller = (app, io, socket_list) => {
                           res.json({
                             status: "1",
                             payload: result[0],
-                            message: "Đăng ký" + msg_success,
+                            message: "Đăng ký " + msg_success,
                           });
                         } else {
                           res.json({ status: "0", message: msg_invalidUser });
