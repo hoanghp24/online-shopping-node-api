@@ -7,21 +7,21 @@ var image_base_url = helper.ImagePath();
 var deliver_price = 30000;
 
 module.exports.controller = (app, io, socket_list) => {
-  const msg_success = "successfully";
-  const msg_fail = "fail";
-  const msg_invalidUser = "invalid username and password";
-  const msg_already_register = "this email already register ";
-  const msg_added_favorite = "add favorite list successfully";
-  const msg_removed_favorite = "removed favorite list successfully";
-  const msg_invalid_item = "invalid product item";
-  const msg_add_to_item = "item added into cart successfully ";
+  const msg_success = "Thành công";
+  const msg_fail = "Lỗi";
+  const msg_invalidUser = "Email hoặc mật khẩu không đúng";
+  const msg_already_register = "Email đăng ký đã tồn tại ";
+  const msg_added_favorite = "Thêm thành công vào mục yêu thích";
+  const msg_removed_favorite = "Xoá thành công khỏi mục yêu thích";
+  const msg_invalid_item = "Sản phẩm không hợp lệ";
+  const msg_add_to_item = "Đã thêm vào giỏ thành công";
   const msg_remove_to_cart = "item remove form cart successfully";
-  const msg_add_address = "address added successfully";
-  const msg_update_address = "address updated successfully";
-  const msg_remove_address = "address removed successfully";
+  const msg_add_address = "Thêm địa chỉ thành công";
+  const msg_update_address = "Cập nhật địa chỉ thành công";
+  const msg_remove_address = "Xoá địa chỉ thành công";
 
-  const msg_add_payment_method = "payment method added successfully";
-  const msg_remove_payment_method = "payment method removed successfully";
+  const msg_add_payment_method = "Thêm phương thức thanh toán thành công";
+  const msg_remove_payment_method = "Xoá phương thức thanh toán thành công";
 
   app.post("/api/app/login", (req, res) => {
     helper.Dlog(req.body);
