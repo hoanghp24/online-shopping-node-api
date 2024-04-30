@@ -49,7 +49,7 @@ module.exports.controller = (app, io, socket_list) => {
                 }
 
                 if (result.length > 0) {
-                  res.json({ status: "1", payload: result[0], message: msg_success });
+                  res.json({ status: "1", payload: result[0], message: "Đăng nhập" + msg_success });
                 } else {
                   res.json({ status: "0", message: msg_invalidUser });
                 }
@@ -105,7 +105,11 @@ module.exports.controller = (app, io, socket_list) => {
                         }
 
                         if (result.length > 0) {
-                          res.json({ status: "1", payload: result[0], message: msg_success });
+                          res.json({
+                            status: "1",
+                            payload: result[0],
+                            message: "Đăng ký" + msg_success,
+                          });
                         } else {
                           res.json({ status: "0", message: msg_invalidUser });
                         }
@@ -421,7 +425,7 @@ module.exports.controller = (app, io, socket_list) => {
               //Valid Item
 
               db.query(
-                "INSERT INTO `cart_detail`(`user_id`, `prod_id`, `qty`) VALUES (?,?,?) ",
+                "INSERT INTO `cart_detail`(`user_id`, `prod_id`, `qty`, `size`) VALUES (?,?,?,?) ",
                 [userObj.user_id, reqObj.prod_id, reqObj.qty],
                 (err, result) => {
                   if (err) {
